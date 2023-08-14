@@ -353,7 +353,9 @@ hr{
 .price{
     color: var(--button-color);
 }
-
+.card-depoiment img{
+    margin-top: 2rem;
+}
 @media (max-width: 320px) {
 
     p{
@@ -525,12 +527,17 @@ hr{
     }
     .fourth-sec ul li{
         font-size: 28px;
+        margin-top: 22px;
     }
 
      .fourth-sec{
         display: flex;
         width: 60rem;
         margin: 0 auto;
+     }
+
+     .fourth-sec h2{
+        padding-bottom: 20px;
      }
      .fourth-sec ul{
         width: auto;
@@ -567,10 +574,11 @@ hr{
         width: 100%;
      }
      .seven-sec ul li img{
-        width: 38px;
+        width: 18px;
      }
      .brands img{
         width: 100%;
+        height: auto;
      }
      .brands ul{
         width: 649px;
@@ -644,7 +652,5 @@ hr{
     .pattern{
         width: 90%;
     }
-    .fourth-sec{
-        width: 80%;
-    }
+
   }
